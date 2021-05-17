@@ -67,19 +67,19 @@ h1 {
     color: #070707;
     /* text-shadow: 3px 0 #DBEDF3; */
     border-radius: 50%;
-    display: inline-block;
+    display: flex;
     width: 150px;
     height: 150px;
     text-align: center;
     margin: 10px;
-    background-color: transparent;
+    background-color: #111;
     box-shadow:0 0 15px #1aa2cf;
 }
 
 @media(max-width:600px){
     .button{
-        width: 100px;
-        height: 100px;
+        width: 100px !important;
+        height: 100px !important;
     }
     h1{
         font-size: 5rem;
